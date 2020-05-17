@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/ipamapi"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/ipamapi"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 type driverData struct {

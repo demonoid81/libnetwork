@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/libnetwork/etchosts"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/osl"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/etchosts"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/osl"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

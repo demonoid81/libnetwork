@@ -205,11 +205,11 @@ EOF
 	   --privileged \
 	   -p ${hport}:${cport} \
 	   -e _OVERLAY_HOST_MODE \
-	   -v $(pwd)/:/go/src/github.com/docker/libnetwork \
+	   -v $(pwd)/:/go/src/github.com/demonoid81/libnetwork \
 	   -v /tmp:/tmp \
 	   -v $(pwd)/${TMPC_ROOT}:/scratch \
 	   -v /usr/local/bin/runc:/usr/local/bin/runc \
-	   -w /go/src/github.com/docker/libnetwork \
+	   -w /go/src/github.com/demonoid81/libnetwork \
 	   mrjana/golang ./bin/dnet -d -D ${hopt} -c ${tomlfile}
 
     wait_for_dnet $(inst_id2port ${inst}) ${name}
@@ -224,7 +224,7 @@ function start_ovrouter() {
 	   --name=${name} \
 	   --net=container:${parent} \
 	   --volumes-from ${parent} \
-	   -w /go/src/github.com/docker/libnetwork \
+	   -w /go/src/github.com/demonoid81/libnetwork \
 	   mrjana/golang ./cmd/ovrouter/ovrouter eth0
 }
 

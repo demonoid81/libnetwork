@@ -4,7 +4,7 @@ package osl
 import (
 	"net"
 
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 // SandboxType specify the time of the sandbox, this can be used to apply special configs

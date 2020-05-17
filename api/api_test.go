@@ -13,12 +13,12 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork"
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/options"
-	"github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/options"
+	"github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 const (

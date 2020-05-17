@@ -14,11 +14,11 @@ import (
 
 	"github.com/docker/libkv/store"
 	"github.com/docker/libkv/store/boltdb"
-	"github.com/docker/libnetwork/bitseq"
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/ipamapi"
-	_ "github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/bitseq"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/ipamapi"
+	_ "github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

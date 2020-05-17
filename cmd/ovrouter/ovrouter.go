@@ -8,10 +8,10 @@ import (
 
 	"github.com/docker/docker/pkg/plugingetter"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/drivers/overlay"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/drivers/overlay"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/vishvananda/netlink"
 )
 

@@ -4,10 +4,10 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/libnetwork/ipamapi"
-	"github.com/docker/libnetwork/netlabel"
-	_ "github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/ipamapi"
+	"github.com/demonoid81/libnetwork/netlabel"
+	_ "github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 func TestWindowsIPAM(t *testing.T) {

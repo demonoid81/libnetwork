@@ -5,8 +5,8 @@ import (
 	"net"
 
 	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/libnetwork/discoverapi"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/discoverapi"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 /********************

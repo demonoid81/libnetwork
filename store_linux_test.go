@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/docker/libkv/store"
-	"github.com/docker/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/datastore"
 )
 
 func TestBoltdbBackend(t *testing.T) {

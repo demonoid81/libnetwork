@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/iptables"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/netutils"
-	"github.com/docker/libnetwork/options"
-	"github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/netutils"
+	"github.com/demonoid81/libnetwork/options"
+	"github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/vishvananda/netlink"
 )
 

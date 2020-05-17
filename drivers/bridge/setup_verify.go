@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

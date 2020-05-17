@@ -1,10 +1,10 @@
 package mvmanager
 
 import (
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/discoverapi"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/discoverapi"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 const networkType = "macvlan"

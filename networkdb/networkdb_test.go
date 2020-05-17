@@ -20,7 +20,7 @@ import (
 	"gotest.tools/poll"
 
 	// this takes care of the incontainer flag
-	_ "github.com/docker/libnetwork/testutils"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 var dbPort int32 = 10000

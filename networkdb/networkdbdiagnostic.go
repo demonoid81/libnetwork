@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/libnetwork/diagnostic"
-	"github.com/docker/libnetwork/internal/caller"
+	"github.com/demonoid81/libnetwork/diagnostic"
+	"github.com/demonoid81/libnetwork/internal/caller"
 	"github.com/sirupsen/logrus"
 )
 

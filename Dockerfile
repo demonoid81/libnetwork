@@ -15,7 +15,7 @@ RUN go get golang.org/x/lint/golint \
 		github.com/gordonklaus/ineffassign \
 		github.com/client9/misspell/cmd/misspell
 
-WORKDIR /go/src/github.com/docker/libnetwork
+WORKDIR /go/src/github.com/demonoid81/libnetwork
 
 FROM dev
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 // EndpointInfo provides an interface to retrieve network resources bound to the endpoint.

@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/term"
-	"github.com/docker/libnetwork/client"
+	"github.com/demonoid81/libnetwork/client"
 	"github.com/urfave/cli"
 )
 

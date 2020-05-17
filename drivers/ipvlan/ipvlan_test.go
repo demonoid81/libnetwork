@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/libnetwork/driverapi"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/driverapi"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 const testNetworkType = "ipvlan"

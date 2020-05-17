@@ -2,7 +2,7 @@ Design
 ======
 
 This document describes how libnetwork has been designed in order to achieve this.
-Requirements for individual releases can be found on the [Project Page](https://github.com/docker/libnetwork/wiki).
+Requirements for individual releases can be found on the [Project Page](https://github.com/demonoid81/libnetwork/wiki).
 
 Many of the design decisions are inspired by the learnings from the Docker networking design as of Docker v1.6.
 Please refer to this [Docker v1.6 Design](legacy.md) document for more information on networking design as of Docker v1.6.

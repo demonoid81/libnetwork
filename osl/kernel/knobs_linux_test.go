@@ -7,7 +7,7 @@ import (
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 
-	_ "github.com/docker/libnetwork/testutils"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 func TestReadWriteKnobs(t *testing.T) {

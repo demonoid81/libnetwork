@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/libnetwork/resolvconf"
+	"github.com/demonoid81/libnetwork/resolvconf"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

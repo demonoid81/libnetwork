@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/testutils"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/testutils"
 )
 
 func TestMain(m *testing.M) {

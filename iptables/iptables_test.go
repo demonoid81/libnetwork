@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	_ "github.com/docker/libnetwork/testutils"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 const chainName = "DOCKEREST"

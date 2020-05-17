@@ -5,12 +5,12 @@ import (
 
 	"github.com/docker/docker/pkg/parsers/kernel"
 	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/options"
-	"github.com/docker/libnetwork/osl"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/options"
+	"github.com/demonoid81/libnetwork/osl"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

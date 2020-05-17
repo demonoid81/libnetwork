@@ -11,8 +11,8 @@ import (
 
 	"github.com/docker/docker/opts"
 	"github.com/docker/docker/pkg/stringid"
-	flag "github.com/docker/libnetwork/client/mflag"
-	"github.com/docker/libnetwork/netutils"
+	flag "github.com/demonoid81/libnetwork/client/mflag"
+	"github.com/demonoid81/libnetwork/netutils"
 )
 
 var (

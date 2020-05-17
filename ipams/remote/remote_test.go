@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/libnetwork/ipamapi"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/ipamapi"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 func decodeToMap(r *http.Request) (res map[string]interface{}, err error) {

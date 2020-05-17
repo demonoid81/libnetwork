@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/docker/libnetwork/portallocator"
+	"github.com/demonoid81/libnetwork/portallocator"
 )
 
 // PortMapper manages the network address translation

@@ -7,9 +7,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/libnetwork/internal/caller"
-	"github.com/docker/libnetwork/internal/setmatrix"
-	"github.com/docker/libnetwork/osl"
+	"github.com/demonoid81/libnetwork/internal/caller"
+	"github.com/demonoid81/libnetwork/internal/setmatrix"
+	"github.com/demonoid81/libnetwork/osl"
 	"github.com/sirupsen/logrus"
 )
 

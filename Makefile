@@ -2,7 +2,7 @@
 SHELL=/bin/bash
 
 dockerbuildargs ?= --target dev - < Dockerfile
-dockerargs ?= --privileged -v $(shell pwd):/go/src/github.com/docker/libnetwork -w /go/src/github.com/docker/libnetwork
+dockerargs ?= --privileged -v $(shell pwd):/go/src/github.com/demonoid81/libnetwork -w /go/src/github.com/demonoid81/libnetwork
 build_image=libnetworkbuild
 container_env = -e "INSIDECONTAINER=-incontainer=true"
 docker = docker run --rm -it --init ${dockerargs} $$EXTRA_ARGS ${container_env} ${build_image}

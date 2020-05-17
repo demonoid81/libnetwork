@@ -12,10 +12,10 @@ import (
 
 	"strconv"
 
-	"github.com/docker/libnetwork/drivers/overlay/overlayutils"
-	"github.com/docker/libnetwork/iptables"
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/drivers/overlay/overlayutils"
+	"github.com/demonoid81/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

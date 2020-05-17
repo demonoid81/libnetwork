@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/libnetwork/netutils"
+	"github.com/demonoid81/libnetwork/netutils"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/docker/libkv/store"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 var (

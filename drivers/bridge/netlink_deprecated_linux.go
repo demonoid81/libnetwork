@@ -8,7 +8,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/docker/libnetwork/netutils"
+	"github.com/demonoid81/libnetwork/netutils"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/libnetwork/iptables"
-	"github.com/docker/libnetwork/portmapper"
-	"github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/portmapper"
+	"github.com/demonoid81/libnetwork/testutils"
 	"github.com/vishvananda/netlink"
 )
 

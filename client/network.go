@@ -9,8 +9,8 @@ import (
 	"text/tabwriter"
 
 	"github.com/docker/docker/pkg/stringid"
-	flag "github.com/docker/libnetwork/client/mflag"
-	"github.com/docker/libnetwork/netlabel"
+	flag "github.com/demonoid81/libnetwork/client/mflag"
+	"github.com/demonoid81/libnetwork/netlabel"
 )
 
 type command struct {

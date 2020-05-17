@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 // Key provides the Key to be used in KV Store

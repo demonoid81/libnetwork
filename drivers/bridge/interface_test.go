@@ -3,7 +3,7 @@ package bridge
 import (
 	"testing"
 
-	"github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/testutils"
 	"github.com/vishvananda/netlink"
 )
 

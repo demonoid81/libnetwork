@@ -3,7 +3,7 @@
 package libnetwork
 
 import (
-	"github.com/docker/libnetwork/etchosts"
+	"github.com/demonoid81/libnetwork/etchosts"
 )
 
 // Stub implementations for DNS related functions

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/discoverapi"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/discoverapi"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -2,60 +2,8 @@ module github.com/demonoid81/libnetwork
 
 go 1.14
 
-require (
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
-	github.com/BurntSushi/toml v0.3.1
-	github.com/Microsoft/go-winio v0.4.15-0.20190919025122-fc70bd9a86b5
-	github.com/Microsoft/hcsshim v0.8.7
-	github.com/armon/go-metrics v0.0.0-20150106224455-eb0af217e5e9
-	github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310
-	github.com/containerd/cgroups v0.0.0-20190919134610-bf292b21730f
-	github.com/containerd/continuity v0.0.0-20190426062206-aaeac12a7ffc
-	github.com/coreos/etcd v3.3.9+incompatible
-	github.com/coreos/go-semver v0.2.0
-	github.com/deckarep/golang-set v0.0.0-20141123011944-ef32fa3046d9
-	github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible
-	github.com/docker/docker v17.12.0-ce-rc1.0.20190404075923-dbe4a30928d4+incompatible
-	github.com/docker/go-connections v0.4.0
-	github.com/docker/go-events v0.0.0-20170721190031-9461782956ad
-	github.com/docker/go-units v0.4.0
-	github.com/docker/libkv v0.2.2-0.20180912205406-458977154600
-	github.com/gogo/protobuf v1.2.1
-	github.com/golang/protobuf v1.3.1
-	github.com/google/go-cmp v0.3.0
-	github.com/gorilla/mux v1.7.1
-	github.com/hashicorp/consul v0.5.2
-	github.com/hashicorp/errwrap v1.0.0
-	github.com/hashicorp/go-msgpack v0.0.0-20140221154404-71c2886f5a67
-	github.com/hashicorp/go-multierror v1.0.0
-	github.com/hashicorp/go-sockaddr v1.0.2
-	github.com/hashicorp/golang-lru v0.5.3
-	github.com/hashicorp/memberlist v0.1.1-0.20171201184301-3d8438da9589
-	github.com/hashicorp/serf v0.7.1-0.20160317193612-598c54895cc5
-	github.com/ishidawataru/sctp v0.0.0-20180918013207-6e2cb1366111
-	github.com/konsorten/go-windows-terminal-sequences v1.0.1
-	github.com/mattn/go-shellwords v1.0.3
-	github.com/miekg/dns v1.1.27
-	github.com/moby/ipvs v1.0.1
-	github.com/opencontainers/go-digest v1.0.0-rc1
-	github.com/opencontainers/image-spec v1.0.1
-	github.com/opencontainers/runc v1.0.0-rc6.0.20190307181833-2b18fe1d885e
-	github.com/opencontainers/runtime-spec v1.0.2-0.20190207185410-29686dbc5559
-	github.com/pkg/errors v0.9.1
-	github.com/samuel/go-zookeeper v0.0.0-20150415181332-d0e0d8e11f31
-	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529
-	github.com/sirupsen/logrus v1.4.2
-	github.com/ugorji/go v1.1.1
-	github.com/urfave/cli v1.9.0
-	github.com/vishvananda/netlink v1.1.0
-	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df
-	go.etcd.io/bbolt v1.3.1-etcd.8
-	go.opencensus.io v0.22.0
-	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
-	golang.org/x/net v0.0.0-20190923162816-aa69164e4478
-	golang.org/x/sync v0.0.0-20190423024810-112230192c58
-	golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527
-	google.golang.org/genproto v0.0.0-20190425155659-357c62f0e4bb
-	google.golang.org/grpc v1.20.1
-	gotest.tools v2.2.0+incompatible
-)
+require github.com/docker/docker v1.13.1
+
+replace go.etcd.io/bbolt => github.com/coreos/bbolt v1.3.4
+
+replace github.com/docker/docker => github.com/docker/engine v17.12.0-ce-rc1.0.20200309214505-aa6a9891b09c+incompatible

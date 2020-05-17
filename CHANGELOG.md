@@ -1,14 +1,14 @@
 # Changelog
 
 ## 0.8.0-dev.2 (2016-05-07)
-- Fix an issue which may arise during sandbox cleanup (https://github.com/docker/libnetwork/pull/1157)
+- Fix an issue which may arise during sandbox cleanup (https://github.com/demonoid81/libnetwork/pull/1157)
 - Fix cleanup logic in case of ipv6 allocation failure
 - Don't add /etc/hosts record if container's ip is empty (--net=none)
 - Fix default gw logic for internal networks
-- Error when updating IPv6 gateway (https://github.com/docker/libnetwork/issues/1142)
-- Fixes https://github.com/docker/libnetwork/issues/1113
-- Fixes https://github.com/docker/libnetwork/issues/1069
-- Fxies https://github.com/docker/libnetwork/issues/1117
+- Error when updating IPv6 gateway (https://github.com/demonoid81/libnetwork/issues/1142)
+- Fixes https://github.com/demonoid81/libnetwork/issues/1113
+- Fixes https://github.com/demonoid81/libnetwork/issues/1069
+- Fxies https://github.com/demonoid81/libnetwork/issues/1117
 - Increase the concurrent query rate-limit count
 - Changes to build libnetwork in Solaris
 
@@ -21,7 +21,7 @@
 
 ## 0.7.0-rc.5 (2016-04-08)
 - Persist ipam driver options
-- Fixes https://github.com/docker/libnetwork/issues/1087
+- Fixes https://github.com/demonoid81/libnetwork/issues/1087
 - Use go vet from go tool
 - Godep update to pick up latest docker/docker packages
 - Validate remote driver response using docker plugins package method.
@@ -34,14 +34,14 @@
 - Persist the network internal mode for bridge networks
 
 ## 0.7.0-rc.2 (2016-04-05)
-- Fixes https://github.com/docker/libnetwork/issues/1070
+- Fixes https://github.com/demonoid81/libnetwork/issues/1070
 - Move IPAM resource initialization out of init()
 - Initialize overlay driver before network delete
 - Fix the handling for default gateway Endpoint join/lean
 
 ## 0.7.0-rc.1 (2016-03-30)
-- Fixes https://github.com/docker/libnetwork/issues/985
-- Fixes https://github.com/docker/libnetwork/issues/945
+- Fixes https://github.com/demonoid81/libnetwork/issues/985
+- Fixes https://github.com/demonoid81/libnetwork/issues/945
 - Log time taken to set sandbox key
 - Limit number of concurrent DNS queries
 
@@ -79,7 +79,7 @@
 ## 0.7.0-dev.4 (2016-03-07)
 - Changed ownership of exposed ports and port-mapping options from Endpoint to Sandbox
 - Implement DNS RR in the Docker embedded DNS server
-- Fixes https://github.com/docker/libnetwork/issues/984 (multi container overlay veth leak)
+- Fixes https://github.com/demonoid81/libnetwork/issues/984 (multi container overlay veth leak)
 - Libnetwork to program container's interface MAC address
 - Fixed bug in iptables.Exists() logic
 - Fixes https://github.com/docker/docker/issues/20694
@@ -88,7 +88,7 @@
 - Windows drivers integration fixes
 - Extract hostname from (hostname.domainname). Related to https://github.com/docker/docker/issues/14282
 - Fixed race in sandbox statistics read
-- Fixes https://github.com/docker/libnetwork/issues/892 (docker start fails when ipv6.disable=1)
+- Fixes https://github.com/demonoid81/libnetwork/issues/892 (docker start fails when ipv6.disable=1)
 - Fixed error message on bridge network creation conflict
 
 ## 0.7.0-dev.3 (2016-02-17)
@@ -142,7 +142,7 @@
 ## 0.6.0-rc1 (2016-01-14)
 - Fixes docker/docker#19404
 - Fixes the ungraceful daemon restart issue in systemd with remote network plugin
-  (https://github.com/docker/libnetwork/issues/813)
+  (https://github.com/demonoid81/libnetwork/issues/813)
 
 ## 0.5.6 (2016-01-14)
 - Setup embedded DNS server correctly on container restart. Fixes docker/docker#19354

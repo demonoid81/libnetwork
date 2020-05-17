@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/gogo/protobuf/proto"
 	"github.com/sirupsen/logrus"
 )

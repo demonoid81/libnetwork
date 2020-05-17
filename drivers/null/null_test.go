@@ -3,8 +3,8 @@ package null
 import (
 	"testing"
 
-	_ "github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	_ "github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 func TestDriver(t *testing.T) {

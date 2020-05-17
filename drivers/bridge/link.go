@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/iptables"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

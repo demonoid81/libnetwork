@@ -7,8 +7,8 @@ package api
 import (
 	"net"
 
-	"github.com/docker/libnetwork/discoverapi"
-	"github.com/docker/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/discoverapi"
+	"github.com/demonoid81/libnetwork/driverapi"
 )
 
 // Response is the basic response structure used in all responses.

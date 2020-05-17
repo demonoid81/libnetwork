@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	_ "github.com/docker/libnetwork/testutils"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 func TestPeerMarshal(t *testing.T) {

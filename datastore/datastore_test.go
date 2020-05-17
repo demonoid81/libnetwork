@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/docker/libnetwork/options"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/options"
+	_ "github.com/demonoid81/libnetwork/testutils"
 	"gotest.tools/assert"
 )
 

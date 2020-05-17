@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/osl/kernel"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/osl/kernel"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"

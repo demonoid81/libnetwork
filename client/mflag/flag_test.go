@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/docker/libnetwork/testutils"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 // ResetForTesting clears all flag state and sets the usage function as directed.

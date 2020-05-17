@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 func TestMain(m *testing.M) {

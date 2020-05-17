@@ -13,11 +13,11 @@ import (
 
 	"github.com/docker/docker/pkg/plugingetter"
 	"github.com/docker/libkv/store/consul"
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/discoverapi"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/netlabel"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/discoverapi"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/netlabel"
+	_ "github.com/demonoid81/libnetwork/testutils"
 	"github.com/vishvananda/netlink/nl"
 )
 

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/ioutils"
-	_ "github.com/docker/libnetwork/testutils"
-	"github.com/docker/libnetwork/types"
+	_ "github.com/demonoid81/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 func TestGet(t *testing.T) {

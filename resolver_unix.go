@@ -10,7 +10,7 @@ import (
 	"runtime"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/iptables"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netns"
 )

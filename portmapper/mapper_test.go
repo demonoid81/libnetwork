@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/libnetwork/iptables"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/iptables"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 func init() {

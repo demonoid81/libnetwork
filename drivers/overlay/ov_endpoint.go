@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/driverapi"
-	"github.com/docker/libnetwork/netutils"
-	"github.com/docker/libnetwork/ns"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/driverapi"
+	"github.com/demonoid81/libnetwork/netutils"
+	"github.com/demonoid81/libnetwork/ns"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	flag "github.com/docker/libnetwork/client/mflag"
+	flag "github.com/demonoid81/libnetwork/client/mflag"
 )
 
 var (

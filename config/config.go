@@ -5,16 +5,16 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
+	"github.com/demonoid81/libnetwork/cluster"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/ipamutils"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/osl"
+	"github.com/demonoid81/libnetwork/portallocator"
 	"github.com/docker/docker/pkg/discovery"
 	"github.com/docker/docker/pkg/plugingetter"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/docker/libkv/store"
-	"github.com/docker/libnetwork/cluster"
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/ipamutils"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/osl"
-	"github.com/docker/libnetwork/portallocator"
 	"github.com/sirupsen/logrus"
 )
 

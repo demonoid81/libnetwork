@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/libnetwork/iptables"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/options"
+	"github.com/demonoid81/libnetwork/iptables"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/options"
 )
 
 const (

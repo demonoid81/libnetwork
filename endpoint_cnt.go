@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/docker/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/datastore"
 )
 
 type endpointCnt struct {

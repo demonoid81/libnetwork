@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/libnetwork/ipamapi"
+	"github.com/demonoid81/libnetwork/ipamapi"
 	"golang.org/x/sync/semaphore"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

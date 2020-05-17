@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 
 	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

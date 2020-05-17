@@ -3,7 +3,7 @@ package netutils
 import (
 	"net"
 
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/types"
 )
 
 // ElectInterfaceAddresses looks for an interface on the OS with the specified name

@@ -1,6 +1,6 @@
 # libnetwork - networking for containers
 
-[![Circle CI](https://circleci.com/gh/docker/libnetwork/tree/master.svg?style=svg)](https://circleci.com/gh/docker/libnetwork/tree/master) [![Coverage Status](https://coveralls.io/repos/docker/libnetwork/badge.svg)](https://coveralls.io/r/docker/libnetwork) [![GoDoc](https://godoc.org/github.com/docker/libnetwork?status.svg)](https://godoc.org/github.com/docker/libnetwork) [![Go Report Card](https://goreportcard.com/badge/github.com/docker/libnetwork)](https://goreportcard.com/report/github.com/docker/libnetwork)
+[![Circle CI](https://circleci.com/gh/docker/libnetwork/tree/master.svg?style=svg)](https://circleci.com/gh/docker/libnetwork/tree/master) [![Coverage Status](https://coveralls.io/repos/docker/libnetwork/badge.svg)](https://coveralls.io/r/docker/libnetwork) [![GoDoc](https://godoc.org/github.com/demonoid81/libnetwork?status.svg)](https://godoc.org/github.com/demonoid81/libnetwork) [![Go Report Card](https://goreportcard.com/badge/github.com/demonoid81/libnetwork)](https://goreportcard.com/report/github.com/demonoid81/libnetwork)
 
 Libnetwork provides a native Go implementation for connecting containers
 
@@ -20,10 +20,10 @@ import (
 	"log"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/libnetwork"
-	"github.com/docker/libnetwork/config"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/options"
+	"github.com/demonoid81/libnetwork"
+	"github.com/demonoid81/libnetwork/config"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/options"
 )
 
 func main() {

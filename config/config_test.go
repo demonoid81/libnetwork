@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/netlabel"
-	_ "github.com/docker/libnetwork/testutils"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/netlabel"
+	_ "github.com/demonoid81/libnetwork/testutils"
 )
 
 func TestInvalidConfig(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/docker/libkv/store"
-	"github.com/docker/libnetwork/config"
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/netlabel"
-	"github.com/docker/libnetwork/options"
+	"github.com/demonoid81/libnetwork/config"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/options"
 )
 
 func testZooKeeperBackend(t *testing.T) {

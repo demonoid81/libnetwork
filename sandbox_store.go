@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/docker/libnetwork/datastore"
-	"github.com/docker/libnetwork/osl"
+	"github.com/demonoid81/libnetwork/datastore"
+	"github.com/demonoid81/libnetwork/osl"
 	"github.com/sirupsen/logrus"
 )
 

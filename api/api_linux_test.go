@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/docker/libnetwork/drivers/bridge"
-	"github.com/docker/libnetwork/netlabel"
+	"github.com/demonoid81/libnetwork/drivers/bridge"
+	"github.com/demonoid81/libnetwork/netlabel"
 )
 
 func GetOpsMap(bridgeName, defaultMTU string) map[string]string {

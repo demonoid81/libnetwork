@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/libnetwork/types"
+	"github.com/demonoid81/libnetwork/types"
 	"github.com/ishidawataru/sctp"
 	"github.com/sirupsen/logrus"
 )

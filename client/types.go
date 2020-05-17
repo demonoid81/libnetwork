@@ -1,6 +1,6 @@
 package client
 
-import "github.com/docker/libnetwork/types"
+import "github.com/demonoid81/libnetwork/types"
 
 /***********
  Resources
