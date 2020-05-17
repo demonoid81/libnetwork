@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/moby/moby/pkg/plugingetter"
+	"github.com/moby/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork/driverapi"
 	"github.com/demonoid81/libnetwork/drivers/overlay"
 	"github.com/demonoid81/libnetwork/netlabel"

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/moby/moby/pkg/ioutils"
 	"github.com/demonoid81/libnetwork/resolvconf/dns"
 	"github.com/demonoid81/libnetwork/types"
 	"github.com/sirupsen/logrus"

@@ -10,9 +10,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/moby/moby/errdefs"
+	"github.com/moby/moby/pkg/plugins"
+	"github.com/moby/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork"
 	"github.com/demonoid81/libnetwork/config"
 	"github.com/demonoid81/libnetwork/datastore"

@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/moby/moby/pkg/stringid"
 	"github.com/demonoid81/libnetwork/types"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"

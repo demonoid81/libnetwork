@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/moby/moby/pkg/plugingetter"
 	"github.com/docker/libkv/store/consul"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/discoverapi"

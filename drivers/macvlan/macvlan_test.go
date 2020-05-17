@@ -3,7 +3,7 @@ package macvlan
 import (
 	"testing"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/moby/moby/pkg/plugingetter"
 	"github.com/demonoid81/libnetwork/driverapi"
 	_ "github.com/demonoid81/libnetwork/testutils"
 )

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/moby/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork/netlabel"
 	"github.com/demonoid81/libnetwork/testutils"
 	"github.com/demonoid81/libnetwork/types"

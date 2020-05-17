@@ -14,7 +14,7 @@ This example is to provision two Docker Hosts with the **experimental** Libnetwo
 
 ### Install Docker Experimental
 
-Follow Docker experimental installation instructions at: [https://github.com/docker/docker/tree/master/experimental](https://github.com/docker/docker/tree/master/experimental)
+Follow Docker experimental installation instructions at: [https://github.com/moby/moby/tree/master/experimental](https://github.com/moby/moby/tree/master/experimental)
 
 To ensure you are running the experimental Docker branch, check the version and look for the experimental tag:
 

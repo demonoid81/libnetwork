@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/pkg/system"
+	"github.com/moby/moby/pkg/system"
 	"github.com/demonoid81/libnetwork/driverapi"
 	"github.com/demonoid81/libnetwork/drivers/windows"
 	"github.com/demonoid81/libnetwork/netlabel"

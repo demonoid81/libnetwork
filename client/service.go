@@ -9,10 +9,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/stringid"
 	flag "github.com/demonoid81/libnetwork/client/mflag"
 	"github.com/demonoid81/libnetwork/netutils"
+	"github.com/moby/moby/opts"
+	"github.com/moby/moby/pkg/stringid"
 )
 
 var (

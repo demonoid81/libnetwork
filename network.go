@@ -8,7 +8,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/pkg/stringid"
 	"github.com/demonoid81/libnetwork/config"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/driverapi"
@@ -20,6 +19,7 @@ import (
 	"github.com/demonoid81/libnetwork/networkdb"
 	"github.com/demonoid81/libnetwork/options"
 	"github.com/demonoid81/libnetwork/types"
+	"github.com/moby/moby/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 

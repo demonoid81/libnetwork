@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/moby/moby/pkg/plugingetter"
+	"github.com/moby/moby/pkg/plugins"
 	"github.com/demonoid81/libnetwork/discoverapi"
 	"github.com/demonoid81/libnetwork/ipamapi"
 	"github.com/demonoid81/libnetwork/ipams/remote/api"

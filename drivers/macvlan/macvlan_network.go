@@ -3,8 +3,8 @@ package macvlan
 import (
 	"fmt"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/moby/moby/pkg/parsers/kernel"
+	"github.com/moby/moby/pkg/stringid"
 	"github.com/demonoid81/libnetwork/driverapi"
 	"github.com/demonoid81/libnetwork/netlabel"
 	"github.com/demonoid81/libnetwork/ns"

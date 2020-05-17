@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/moby/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork"
 	"github.com/demonoid81/libnetwork/config"
 	"github.com/demonoid81/libnetwork/netlabel"
@@ -91,7 +91,7 @@ func main() {
 
 ## Contributing
 
-Want to hack on libnetwork? [Docker's contributions guidelines](https://github.com/docker/docker/blob/master/CONTRIBUTING.md) apply.
+Want to hack on libnetwork? [Docker's contributions guidelines](https://github.com/moby/moby/blob/master/CONTRIBUTING.md) apply.
 
 ## Copyright and license
 Code and documentation copyright 2015 Docker, inc. Code released under the Apache 2.0 license. Docs released under Creative commons.

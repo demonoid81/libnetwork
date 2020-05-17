@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/moby/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork/ns"
 	"github.com/demonoid81/libnetwork/osl/kernel"
 	"github.com/demonoid81/libnetwork/types"
