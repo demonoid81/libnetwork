@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/moby/moby/pkg/system"
+	"github.com/demonoid81/moby/pkg/system"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/discoverapi"
 	"github.com/demonoid81/libnetwork/driverapi"

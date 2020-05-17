@@ -3,8 +3,8 @@ package ipvlan
 import (
 	"fmt"
 
-	"github.com/moby/moby/pkg/parsers/kernel"
-	"github.com/moby/moby/pkg/stringid"
+	"github.com/demonoid81/moby/pkg/parsers/kernel"
+	"github.com/demonoid81/moby/pkg/stringid"
 	"github.com/demonoid81/libnetwork/driverapi"
 	"github.com/demonoid81/libnetwork/netlabel"
 	"github.com/demonoid81/libnetwork/ns"

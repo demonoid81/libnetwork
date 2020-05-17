@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/moby/moby/pkg/ioutils"
+	"github.com/demonoid81/moby/pkg/ioutils"
 	_ "github.com/demonoid81/libnetwork/testutils"
 	"github.com/demonoid81/libnetwork/types"
 )

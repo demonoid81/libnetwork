@@ -4,7 +4,7 @@ package ipamapi
 import (
 	"net"
 
-	"github.com/moby/moby/pkg/plugingetter"
+	"github.com/demonoid81/moby/pkg/plugingetter"
 	"github.com/demonoid81/libnetwork/discoverapi"
 	"github.com/demonoid81/libnetwork/types"
 )

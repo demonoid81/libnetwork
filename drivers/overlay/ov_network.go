@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/moby/moby/pkg/reexec"
+	"github.com/demonoid81/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/driverapi"
 	"github.com/demonoid81/libnetwork/netlabel"

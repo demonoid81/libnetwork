@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/moby/moby/pkg/signal"
+	"github.com/demonoid81/moby/pkg/signal"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows"
 )

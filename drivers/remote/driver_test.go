@@ -13,7 +13,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/moby/moby/pkg/plugins"
+	"github.com/demonoid81/moby/pkg/plugins"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/discoverapi"
 	"github.com/demonoid81/libnetwork/driverapi"

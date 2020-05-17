@@ -10,7 +10,7 @@ import (
 
 	flag "github.com/demonoid81/libnetwork/client/mflag"
 	"github.com/demonoid81/libnetwork/netlabel"
-	"github.com/moby/moby/pkg/stringid"
+	"github.com/demonoid81/moby/pkg/stringid"
 )
 
 type command struct {

@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/moby/moby/pkg/reexec"
+	"github.com/demonoid81/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork"
 	"github.com/demonoid81/libnetwork/datastore"
 	"github.com/demonoid81/libnetwork/netlabel"

@@ -7,7 +7,7 @@ import (
 
 	"github.com/demonoid81/libnetwork/ns"
 	"github.com/demonoid81/libnetwork/testutils"
-	"github.com/moby/moby/pkg/reexec"
+	"github.com/demonoid81/moby/pkg/reexec"
 )
 
 func TestMain(m *testing.M) {

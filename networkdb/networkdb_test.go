@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/pkg/stringid"
+	"github.com/demonoid81/moby/pkg/stringid"
 	"github.com/docker/go-events"
 	"github.com/hashicorp/memberlist"
 	"github.com/sirupsen/logrus"

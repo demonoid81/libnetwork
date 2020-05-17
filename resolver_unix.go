@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/moby/moby/pkg/reexec"
+	"github.com/demonoid81/moby/pkg/reexec"
 	"github.com/demonoid81/libnetwork/iptables"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netns"

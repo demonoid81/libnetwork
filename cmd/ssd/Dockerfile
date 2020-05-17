@@ -30,5 +30,5 @@ RUN echo \
     && echo
 
 ADD ssd.py /
-RUN pip install git+git://github.com/moby/moby-py.git
+RUN pip install git+git://github.com/demonoid81/moby-py.git
 ENTRYPOINT [ "python", "/ssd.py"]

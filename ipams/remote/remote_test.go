@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/moby/moby/pkg/plugins"
+	"github.com/demonoid81/moby/pkg/plugins"
 	"github.com/demonoid81/libnetwork/ipamapi"
 	_ "github.com/demonoid81/libnetwork/testutils"
 )

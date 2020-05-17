@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/moby/moby/opts"
-	"github.com/moby/moby/pkg/discovery"
-	"github.com/moby/moby/pkg/reexec"
+	"github.com/demonoid81/moby/opts"
+	"github.com/demonoid81/moby/pkg/discovery"
+	"github.com/demonoid81/moby/pkg/reexec"
 	"github.com/urfave/cli"
 
-	"github.com/moby/moby/api/types/network"
-	"github.com/moby/moby/pkg/term"
+	"github.com/demonoid81/moby/api/types/network"
+	"github.com/demonoid81/moby/pkg/term"
 	"github.com/demonoid81/libnetwork"
 	"github.com/demonoid81/libnetwork/api"
 	"github.com/demonoid81/libnetwork/cluster"

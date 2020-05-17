@@ -3,7 +3,7 @@ package bridge
 import (
 	"fmt"
 
-	"github.com/moby/moby/pkg/parsers/kernel"
+	"github.com/demonoid81/moby/pkg/parsers/kernel"
 	"github.com/demonoid81/libnetwork/netutils"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"

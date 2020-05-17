@@ -19,7 +19,7 @@ import (
 	"github.com/demonoid81/libnetwork/networkdb"
 	"github.com/demonoid81/libnetwork/options"
 	"github.com/demonoid81/libnetwork/types"
-	"github.com/moby/moby/pkg/stringid"
+	"github.com/demonoid81/moby/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 
